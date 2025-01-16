@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* formsection end */
+.container{
+
+    max-width: 90%;
+    width:100% ;
+    margin: 0 auto;
+  
+  
+  }
+
+.formsign{
+    margin: 0;
+    padding: 45px 0;
+    background-color: darkgreen;
+  }
+  .formsign-up{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+  
+    
+  }
+  .formsign-up form{
+    padding: 100px;
+  }
+  .formsign-up form button{
+    padding: 10px;
+    background-color: rgb(244, 236, 233);
+    text-decoration: none;
+    color: red;
+    border-radius: 5px;
+    margin: 3px;
+  
+  }
+  .formsign-up form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+  }
+  

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* * formsection start */ */
+
+
+.container{
+
+    max-width: 90%;
+    width:100% ;
+    margin: 0 auto;
+  
+  
+  }
+.formsection{
+  padding: 45px 0;
+}
+.fromcontainer{
+display: flex;
+justify-content: center;
+align-items: center;
+  padding: 50px;
+  background-image: url(/images/bg-pattern-intro-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ff7c7c;
+}
+form{
+  padding: 100px;
+  border: 2px solid;
+  box-shadow: 0px 5px 15px 15px rgb(236, 224, 224);
+  text-align: left;
+  margin: 10px;
+  background-color: #ff7c7c;
+}
+form a{
+  padding: 5px;
+  background-color: rgb(244, 236, 233);
+  text-decoration: none;
+  color: red;
+  border-radius: 5px;
+}
+
+.fromcontainer input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
